@@ -1,0 +1,36 @@
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Calc</title>
+</head>
+
+<body>
+
+	<h1> Current calculator value: <span id="current-value">0</span> </h1>
+	<br><br>
+
+	<form>
+		<textarea id="input" rows="3" cols="30"> </textarea>
+		<br />
+		<button id="add1" type="button"> Add </button>
+		<button id="subtract" type="button" onclick="subtract()"> Subtract </button>
+		<button id="reset" type="button" onclick="reset()"> Reset </button>
+		<button id="pop" type="button" onclick="pop()"> Pop </button>
+	</form>
+
+	<br><br>
+
+	<br>
+
+	<script type="text/javascript" src="index.js"> </script>
+	<script>
+		document.getElementById('add1').addEventListener('click', add);
+		console.log('add function?', add);
+	</script>
+
+
+
+</body>
+
+</html>
